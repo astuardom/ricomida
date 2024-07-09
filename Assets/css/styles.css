@@ -1,0 +1,53 @@
+ .body {
+    background-color: #FFFFFF;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    background-color: #373a3c;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.custom-hr {
+    border-top: 3px solid #373a3c;
+}
+
+.footer {
+    background-color: #DC3545;
+    color: white; 
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.footer h2, .footer p, .footer button {
+    margin: 10px 0; 
+}
+
+.footer-2 {
+    font-family: 'Lobster', cursive;
+    background-color: #343a40;
+    padding: 1rem 0;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    #carouselExample {
+        display: none;
+    }
+}
